@@ -116,7 +116,7 @@ def crea_foglioxlsx(writer, df, sheet, nome_titolo='', crea_grafico=False):
         chart.set_x_axis({'name': [sheet, 0, 1]})
         chart.set_y_axis({'name': [sheet, 0, 2]})
 
-        # inserisce il grafico (riga, colonna, foglio)
+        # inserisce il grafico (riga, colonna, chart)
         worksheet.insert_chart(1, 3, chart)
 
 
